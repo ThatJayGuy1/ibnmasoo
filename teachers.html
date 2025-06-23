@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching Staff - Ibun Masood High School</title>
+    <style>
+        :root {
+            --primary-color: #2c5e92;
+            --secondary-color: #1a3a5a;
+            --accent-color: #e8c336;
+            --light-bg: #f5f5f5;
+            --text-color: #333;
+            --white: #ffffff;
+            --department-science: #4CAF50;
+            --department-language: #2196F3;
+            --department-business: #9C27B0;
+            --department-history: #FF5722;
+            --department-art: #FF9800;
+            --department-ict: #607D8B;
+            --department-geography: #795548;
+            --department-theology: #3F51B5;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .department {
+            background-color: var(--white);
+            border-radius: 5px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 30px 0;
+            border-left: 5px solid;
+        }
+        .department.science {
+            border-left-color: var(--department-science);
+        }
+        .department.language {
+            border-left-color: var(--department-language);
+        }
+        .department.business {
+            border-left-color: var(--department-business);
+        }
+        .department.history {
+            border-left-color: var(--department-history);
+        }
+        .department.art {
+            border-left-color: var(--department-art);
+        }
+        .department.ict {
+            border-left-color: var(--department-ict);
+        }
+        .department.geography {
+            border-left-color: var(--department-geography);
+        }
+        .department.theology {
+            border-left-color: var(--department-theology);
+        }
+        .department-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .department-title {
+            margin: 0;
+            color: var(--primary-color);
+        }
+        .teachers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .teacher-card {
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .teacher-name {
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin: 0 0 10px 0;
+        }
+        .teacher-subjects {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .teacher-subjects li {
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .department-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Teaching Staff</h1>
+            <p>Ibun Masood High School - Kibiri</p>
+            <p><em>Recite in the Name of Thy Lord</em></p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="teaching-staff">
+            <h2>Our Dedicated Teaching Staff</h2>
+            <p>At Ibun Masood High School, we pride ourselves on having a team of professional, committed teachers who are experts in their respective fields.</p>
+
+            <div class="department science">
+                <div class="department-header">
+                    <h3 class="department-title">Science Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Edward Lukanga</p>
+                        <ul class="teacher-subjects">
+                            <li>Physics</li>
+                            <li>Mathematics</li>
+                            <li>Geography</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Owino Isaac</p>
+                        <ul class="teacher-subjects">
+                            <li>Physics</li>
+                            <li>Mathematics</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Joseph Lwanga</p>
+                        <ul class="teacher-subjects">
+                            <li>Chemistry</li>
+                            <li>Biology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Evans Mwaka</p>
+                        <ul class="teacher-subjects">
+                            <li>ICT</li>
+                            <li>Computer Studies</li>
+                            <li>Geography</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Rashida Nassanga</p>
+                        <ul class="teacher-subjects">
+                            <li>Biology</li>
+                            <li>Chemistry</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Atika Nabukenya</p>
+                        <ul class="teacher-subjects">
+                            <li>Biology</li>
+                            <li>Agriculture</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Shafic Nyamayalwo</p>
+                        <ul class="teacher-subjects">
+                            <li>ICT</li>
+                            <li>Computer Studies</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Aisha Nakasinga</p>
+                        <ul class="teacher-subjects">
+                            <li>Geography</li>
+                            <li>Agriculture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="department language">
+                <div class="department-header">
+                    <h3 class="department-title">Language Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Ali Asaba</p>
+                        <ul class="teacher-subjects">
+                            <li>English</li>
+                            <li>Literature in English</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Mike Lusiba</p>
+                        <ul class="teacher-subjects">
+                            <li>English</li>
+                            <li>Literature in English</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Tophias Bwagi</p>
+                        <ul class="teacher-subjects">
+                            <li>English</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Joan Namubiru</p>
+                        <ul class="teacher-subjects">
+                            <li>English</li>
+                            <li>Literature in English</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Uthman Kayongo</p>
+                        <ul class="teacher-subjects">
+                            <li>Luganda</li>
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Hussein Mutambala</p>
+                        <ul class="teacher-subjects">
+                            <li>Luganda</li>
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="department business">
+                <div class="department-header">
+                    <h3 class="department-title">Business Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Abaasi Kasekende</p>
+                        <ul class="teacher-subjects">
+                            <li>Commerce</li>
+                            <li>Entrepreneurship</li>
+                            <li>Economics</li>
+                            <li>Geography</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Fred Kimuli</p>
+                        <ul class="teacher-subjects">
+                            <li>Commerce</li>
+                            <li>Entrepreneurship</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Abdul-rahman Busulwa</p>
+                        <ul class="teacher-subjects">
+                            <li>Commerce</li>
+                            <li>Entrepreneurship</li>
+                            <li>History</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="department history">
+                <div class="department-header">
+                    <h3 class="department-title">History & Religious Education Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Hadija Namyalo</p>
+                        <ul class="teacher-subjects">
+                            <li>History</li>
+                            <li>Islamic Religious Education</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Rashid Ayub</p>
+                        <ul class="teacher-subjects">
+                            <li>History</li>
+                            <li>Islamic Religious Education</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Bashir Walugembe</p>
+                        <ul class="teacher-subjects">
+                            <li>History</li>
+                            <li>Islamic Religious Education</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Abdurraham Busulwa</p>
+                        <ul class="teacher-subjects">
+                            <li>History</li>
+                            <li>Commerce</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Hawa Nakyobe</p>
+                        <ul class="teacher-subjects">
+                            <li>History</li>
+                            <li>Christian Religious Education</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Imaam Faisal Ssebuliba</p>
+                        <ul class="teacher-subjects">
+                            <li>Islamic Religious Education</li>
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Paul Mukhoobi</p>
+                        <ul class="teacher-subjects">
+                            <li>History</li>
+                            <li>Christian Religious Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="department art">
+                <div class="department-header">
+                    <h3 class="department-title">Fine Art Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Eric Kaggwa</p>
+                        <ul class="teacher-subjects">
+                            <li>Fine Art</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Sarah Nalule</p>
+                        <ul class="teacher-subjects">
+                            <li>Fine Art</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Amina Ssonko</p>
+                        <ul class="teacher-subjects">
+                            <li>Fine Art</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="department ict">
+                <div class="department-header">
+                    <h3 class="department-title">ICT Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Mwaka Evans</p>
+                        <ul class="teacher-subjects">
+                            <li>ICT</li>
+                            <li>Computer Studies</li>
+                            <li>Geography</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Shafie Nyamayalwo</p>
+                        <ul class="teacher-subjects">
+                            <li>ICT</li>
+                            <li>Computer Studies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="department geography">
+                <div class="department-header">
+                    <h3 class="department-title">Geography Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Madam Aisha Nakasinga</p>
+                        <ul class="teacher-subjects">
+                            <li>Geography</li>
+                            <li>Agriculture</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Abaasi Kasekende</p>
+                        <ul class="teacher-subjects">
+                            <li>Geography</li>
+                            <li>Commerce</li>
+                            <li>Economics</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Mr. Edward Lukanga</p>
+                        <ul class="teacher-subjects">
+                            <li>Geography</li>
+                            <li>Physics</li>
+                            <li>Mathematics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="department theology">
+                <div class="department-header">
+                    <h3 class="department-title">Theology Department</h3>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Hussein Mutambala</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                            <li>Luganda</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Muhammad Lugoloobi</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Ahmed Zziwa</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Musa Gwamba</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Ismail Katumba</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Muhammad Ssenyange</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Ahmed Wakuze</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Ibrahim Nsubuga</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Zainul Kiwalabye</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Uthman Kayongo</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                            <li>Luganda</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Ismail Katumba</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                    <div class="teacher-card">
+                        <p class="teacher-name">Sheikh Ahmed Nsereko</p>
+                        <ul class="teacher-subjects">
+                            <li>Theology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a href="About.html" class="back-link">← Back to About Page</a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Ibun Masood High School. All Rights Reserved.</p>
+            <p>Recite in the Name of Thy Lord</p>
+        </div>
+    </footer>
+</body>
+</html>
