@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ibun Masood High School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #111011;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #0b7018;
+            border-bottom: 5px solid #e20d0d;
+            padding-bottom: 10px;
+        }
+        .contact-info {
+            background-color: #ccd6a6;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .phone-numbers {
+            margin: 10px 0;
+        }
+        .phone-numbers span {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us - Ibun Masood</h1>
+        
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong><br>
+            Kibiri, Busabala Road,<br>
+            Makindye-SSabagabo Municipality,<br>
+            Wakiso District</p>
+            
+            <div class="phone-numbers">
+                <strong>Phone Numbers:</strong>
+                <span>0782 311 464</span>
+                <span>0702 311 464</span>
+                <span>0701 280 699</span>
+                <span>0703 126 828</span>
+            </div>
+            
+            <p><strong>Email:</strong> <a href="mailto:info@ibunmasood.ac.ug">info@ibunmasood.ac.ug</a></p>
+        </div>
+        
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
